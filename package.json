@@ -1,6 +1,6 @@
 {
   "name": "html-critical-webpack-plugin",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Webpack plugin for the critical CSS inliner library.",
   "main": "src/index.js",
   "repository": {
@@ -27,7 +27,7 @@
     "test": "npm run clean && mocha ./test/**/*.spec.js --timeout 5000"
   },
   "dependencies": {
-    "critical": "^1.0.0"
+    "critical": "2.0.0-12"
   },
   "files": [
     "README.md",
